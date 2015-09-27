@@ -44,7 +44,14 @@ Activity labels are assigned to a new dataframe extract_data from dataframe acti
 ---------------------------------------------------------------------------------
 4. Appropriately labels the data set with descriptive variable names. 
 ---------------------------------------------------------------------------------
-For the purpose of assigining appropriate descriptive variable names, I have created a dataframe  that stores parts of original variable names and their description
+For the purpose of assigining appropriate descriptive variable names, I have created a dataframe descriptive_labels that stores parts of original variable names and their description from UCI HAR Dataset README.txt file.
+The script loops through the descriptive_labels and replaces elements of extract_data variable names.
 
+---------------------------------------------------------------------------------
+5. From the data set in step 4, creates a second, independent tidy data set
+with the average of each variable for each activity and each subject
+---------------------------------------------------------------------------------
+Tidy data set is created by grouping the extracted data extract_data by Subjects and Activity using group_by and calculating average of each variable for each activity by passing the mean function to summarise_each.
+The data is then exported to Tidy_Data.txt
 
 
