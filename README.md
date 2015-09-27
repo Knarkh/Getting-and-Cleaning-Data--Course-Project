@@ -34,4 +34,17 @@ Finally, training and test data are combined in test_and_training dataframe.
 ---------------------------------------------------------------------------------
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 ---------------------------------------------------------------------------------
-Standard deviation and mean measurements are selected by searching for "-std()" and "-mean()" characters string in test_and_training, and assigned to extract_std and extract_mean dataframes. These are 
+Standard deviation and mean measurements are selected by searching for "-std()" and "-mean()" characters string in test_and_training variable names, and assigned to extract_std and extract_mean dataframes. These are merged together along with the SUbjects and Activity columns, and stored in extract_data_0
+
+---------------------------------------------------------------------------------
+3. Uses descriptive activity names to name the activities in the data set
+---------------------------------------------------------------------------------
+Activity labels are assigned to a new dataframe extract_data from dataframe activity_labels that stores data from activity_labels.txt file
+
+---------------------------------------------------------------------------------
+4. Appropriately labels the data set with descriptive variable names. 
+---------------------------------------------------------------------------------
+For the purpose of assigining appropriate descriptive variable names, I have created a dataframe  that stores parts of original variable names and their description
+
+
+
