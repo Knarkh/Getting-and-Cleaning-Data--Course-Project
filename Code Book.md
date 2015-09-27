@@ -1,6 +1,8 @@
 Code Book for Getting and Cleaning Data Course Project
 describing the data in Tidy_Data.txt that is the output of run_analysis.R
 
+All variables represent average values for each subject and activity of the respective variable. The data is combined from train and test data sets.
+
 1. Subjects
 Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
@@ -26,25 +28,47 @@ Standard deviation of the gravity component of direction Y time domain accelerom
 Standard deviation of the gravity component of direction Z time domain accelerometer signals captured at a constant rate of 50 Hz and normalized and bounded within [-1,1].
 
 9. body acceleration time accelerometer 3-axial raw signal jerk -Standard deviation ()direction X 
-Standard deviation of direction X jerk time domain accelerometer signals captured at a constant rate of 50 Hz and normalized and bounded within [-1,1].
+Standard deviation of direction X jerk time domain accelerometer signals derived from the body linear acceleration and angular velocity and normalized and bounded within [-1,1].
 
 10. body acceleration time accelerometer 3-axial raw signal jerk -Standard deviation ()direction Y 
-Standard deviation of direction Y jerk time domain accelerometer signals captured at a constant rate of 50 Hz and normalized and bounded within [-1,1].
+Standard deviation of direction Y jerk time domain accelerometer signals derived from the body linear acceleration and angular velocity and normalized and bounded within [-1,1].
 
 11. body acceleration time accelerometer 3-axial raw signal jerk -Standard deviation ()direction Z 
-Standard deviation of direction Z jerk time domain accelerometer signals captured at a constant rate of 50 Hz and normalized and bounded within [-1,1].
+Standard deviation of direction Z jerk time domain accelerometer signals derived from the body linear acceleration and angular velocity and bounded within [-1,1].
 
 12. body acceleration time gyroscope 3-axial raw signal -Standard deviation ()direction X 
+Standard deviation of direction X time domain gyroscope signals captured at a constant rate of 50 Hz and normalized and bounded within [-1,1].
+
 13. body acceleration time gyroscope 3-axial raw signal -Standard deviation ()direction Y 
+Standard deviation of direction Y time domain gyroscope signals captured at a constant rate of 50 Hz and normalized and bounded within [-1,1].
+
 14. body acceleration time gyroscope 3-axial raw signal -Standard deviation ()direction Z 
+Standard deviation of direction Z time domain gyroscope signals captured at a constant rate of 50 Hz and normalized and bounded within [-1,1].
+
 15. body acceleration time gyroscope 3-axial raw signal jerk -Standard deviation ()direction X 
+Standard deviation of direction X jerk time domain gyroscope signals derived from the body linear acceleration and angular velocity and normalized and bounded within [-1,1].
+
 16. body acceleration time gyroscope 3-axial raw signal jerk -Standard deviation ()direction Y 
+Standard deviation of direction Y jerk time domain gyroscope signals derived from the body linear acceleration and angular velocity and normalized and bounded within [-1,1].
+
 17. body acceleration time gyroscope 3-axial raw signal jerk -Standard deviation ()direction Z 
+Standard deviation of direction Z jerk time domain gyroscope signals derived from the body linear acceleration and angular velocity and normalized and bounded within [-1,1].
+
 18. body acceleration time accelerometer 3-axial raw signal magnitude -Standard deviation ()
+Standard deviation of 3-axial raw signal magnitude time domain accelerometer signals calculated using the Euclidean norm and normalized and bounded within [-1,1].
+
 19. gravity acceleration time accelerometer 3-axial raw signal magnitude -Standard deviation ()
+Standard deviation of 3-axial gravity acceleration signal magnitude time domain accelerometer signals calculated using the Euclidean norm and normalized and bounded within [-1,1].
+
 20. body acceleration time accelerometer 3-axial raw signal jerk magnitude -Standard deviation ()
+Standard deviation of 3-axial body jerk magnitudfe time domain accelerometer signals derived from the body linear acceleration and angular velocity, calculated using the Euclidean norm and normalized and bounded within [-1,1].
+
 21. body acceleration time gyroscope 3-axial raw signal magnitude -Standard deviation ()
+Standard deviation of magnitude of 3-axial raw time domain gyroscope signals calculated using the Euclidean norm and normalized and bounded within [-1,1].
+
 22. body acceleration time gyroscope 3-axial raw signal jerk magnitude -Standard deviation ()
+
+
 23. frequency measurement accelerometer 3-axial raw signal -Standard deviation ()direction X 
 24. frequency measurement accelerometer 3-axial raw signal -Standard deviation ()direction Y 
 25. frequency measurement accelerometer 3-axial raw signal -Standard deviation ()direction Z 
